@@ -1,0 +1,17 @@
+[package]
+name = "day02"
+version = "0.1.0"
+authors = ["Kevin M Granger"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.25"
+num-derive = "0.3.0"
+num-traits = "0.2.10"
+thiserror = "1.0.9"
+intcode = { path = "../intcode/" }
+
+[features]
+part2 = []
